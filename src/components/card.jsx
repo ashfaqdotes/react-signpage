@@ -1,8 +1,9 @@
-import Tabsmenu from "./tabsmenu";
+import SignUp from "./sign-up";
+import SignIn from "./sign-in";
 export default function Card() {
   return (
-    <div className="sm:1/1 lg:w-1/2 m-auto">
-      <Tabsmenu />
+    <div className="sm:1/1 lg:w-1/2 mt-20 bg-slate-300 mx-auto">
+      <SignUp />
     </div>
   );
 }
